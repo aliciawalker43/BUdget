@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang= "en"> 
+    <head> 
+        <meta charset="UTF 8">
+        <link rel="stylesheet" href=https://fonts.googleapis.com/css?family=caladea:400,700&display=swap" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewpoint" content= width=device-width, initial-scale>
+        <title>My Budget App</title>
+    </head>
+    <body>
+        <main>
+        <div class= "main" id= "monthly_budget_section">
+            <h3>Monthly Budget:</h3>
+            <p id="monthly_budget"></p>
+            <forum>
+                <input type="number" id="income_input" placeholder="monthly income"/>
+                <button id="update_income">Update budget</button>
+            </forum>
+        </div>
+        <div class= "main" id= "expense_add_section"></div>
+        <h3>Add_Expense</h3>
+            <forum>
+              <input type="text" id="name_input" placeholder="Expense name">
+              <input type="number" id="amount_input" placeholder="Expense amount">
+              <button id="add_expense"> Add Expenses</button>
+              </forum>
+            </div>
+          </div>
+          <div class= "main" id= "expense_list_section"></div>
+          <h3>Monthly Expenses:</h3>
+          <div id="expense_list"></div>
+        </div>
+        <div class= "main" id= "expense_total_section"></div>
+        <h3>Total Expenses:</h3>
+        <p id="total_expenses"></p>
+      </div>
+        <div class= "main" id= "remaining_balance_section"></div>
+        <h3> Remaining Balance: </h3>
+        <p id="remaining_balance"></p>
+    </div>
+    </main>
+    <script src="script.js"></script>
+    </body>
+</html>
